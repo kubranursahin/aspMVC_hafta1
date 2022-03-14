@@ -1,0 +1,11 @@
+﻿@model Array
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+Array Page
+@foreach (var item in Model)
+            { 
+    <p>@item</p>
+            }

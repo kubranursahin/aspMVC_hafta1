@@ -1,0 +1,27 @@
+﻿
+
+@model aspMVC.Models.Ders
+@{
+    ViewBag.Title = "Dersim";
+}
+
+<h2>Dersim</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Eğitmen Adı</th>
+            <th scope="col">Ders Adı</th>
+            <th scope="col">Ders Kredisi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">@Model.Id</th>
+            <td>@Model.Ad</td>
+            <td>@Model.Egitmen</td>
+            <td>@Model.Kredi</td>
+        </tr>
+
+    </tbody>
+</table>
